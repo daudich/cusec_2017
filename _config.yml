@@ -10,7 +10,7 @@ description: > # this means to ignore newlines until "baseurl:"
   year.
 baseurl: "" # starting with /
 url: "http://2017.cusec.net" # the base hostname & protocol for your site
-google_analytics: #google analytics code XX-nnnnnnnn-n
+google_analytics: UA-68503004-2 #google analytics code XX-nnnnnnnn-n
 
 # Social network info
 social:
