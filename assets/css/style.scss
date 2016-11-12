@@ -133,7 +133,6 @@ h1, h2, h3, h4, h5, h6 {
 			}
 		}
 	}
-	// padding-top: 15px;
 	.navbar {
 		padding-bottom: 0;
 		margin-bottom: 0;
@@ -174,9 +173,7 @@ h1, h2, h3, h4, h5, h6 {
 					}
 				}
 				&:hover {
-					// color: $brand-primary;
 					color: $brand-white;
-					// color: rgba(255,255,255,1);
 					span {
 						&:before {
 							visibility: visible;
@@ -190,6 +187,15 @@ h1, h2, h3, h4, h5, h6 {
 				}
 
 			}
+            .white-bg{
+                color: rgba(0,0,0,0.5);
+                &:before{
+                    background-color: $brand-primary;
+                }
+                &:hover{
+                    color: $brand-primary;
+                }
+            }
 			&.active {
 				a {
 					background: transparent;
@@ -203,14 +209,15 @@ h1, h2, h3, h4, h5, h6 {
 						}
 					}
 				}
+                .white-bg{
+                    color: $brand-primary;
+                }
 			}
 		}
         .register a {
             background-color: $brand-primary;
             color: #fff;
-            -webkit-border-radius: 5px;
-            -moz-border-radius: 5px;
-            border-radius: 5px;
+            @include border-radius(5px);
             &:hover{
                 color: $brand-primary;
                 background-color: #fff;
@@ -226,8 +233,14 @@ h1, h2, h3, h4, h5, h6 {
 		font-weight: 700;
 		padding-left: 0;
 		color: $brand-white;
-
 	}
+    .navbar{
+        .white-bg{
+            .navbar-brand{
+                color: $brand-primary;
+            }
+        }
+    }
 	&.navbar-fixed-top {
 		position: fixed!important;
 		background: $brand-white;
@@ -267,7 +280,7 @@ h1, h2, h3, h4, h5, h6 {
 			}
             .register a {
                 color: $brand-white;
-                border-radius: 0;
+                @include border-radius(0px);
             }
 		}
 	}
@@ -490,7 +503,7 @@ h1, h2, h3, h4, h5, h6 {
 	}
 }
 
-#fh5co-schools, #fh5co-code, #fh5co-testimonials, #fh5co-counters, #fh5co-work, #fh5co-contact, #fh5co-about, #fh5co-venue {
+#fh5co-schools, #fh5co-code, #fh5co-sponsors, #fh5co-counters, #fh5co-work, #fh5co-contact, #fh5co-about, #fh5co-venue {
 	padding: 4em 0;
 	@media screen and (max-width: $screen-sm) {
 		padding: 2em 0;
@@ -576,7 +589,7 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
-#fh5co-schools, #fh5co-code, #fh5co-work, #fh5co-counters {
+#fh5co-schools, #fh5co-code, #fh5co-work, #fh5co-counters, #fh5co-sponsors {
 	padding: 7em 0;
 	@media screen and (max-width: $screen-sm) {
 		padding: 4em 0;
@@ -752,77 +765,85 @@ h1, h2, h3, h4, h5, h6 {
 	}
 }
 
-#fh5co-testimonials {
-	.box-testimony {
-		margin-bottom: 2em;
-		float: left;
-		a {
-			color: rgba(255,255,255,.5);
-			&:hover, &:focus, &:active {
-				color: rgba(255,255,255,1);
-				text-decoration: none;
-			}
-		}
-		blockquote {
-			padding-left: 0;
-			border-left: none;
-			padding: 30px;
-			background: $brand-white;
-			background: $brand-primary;
-			font-size: 20px;
-			font-weight: 300;
-
-			position: relative;
-			@include border-radius(7px);
+#fh5co-sponsors {
+    background: $brand-white;
+    .partner{
+        padding-bottom: 3em;
+        img{
+            padding: 15px;
+        }
+    }
+    .gold{
+        padding-bottom: 3em;
+    }
+    .silver{
+        padding-bottom: 3em;
+    }
+    .sponsor-item{
+        margin: 0 auto;
+        text-align: center
+    }
+    h1 {
+		margin: 0 0 30px 0;
+		font-size: 50px;
+		font-weight: 300;
+		color: #444;
+		text-transform: uppercase;
+		position: relative;
+		display: block;
+		padding-bottom: 20px;
+		line-height: 1.5;
+		&.left-border {
 			&:after {
-			   content: "";
-			   position: absolute;
-			   top: 100%;
-			   left: 40px;
-			   border-top: 10px solid black;
-			   border-top-color: $brand-white;
-			   border-top-color: $brand-primary;
-			   border-left: 10px solid transparent;
-			   border-right: 10px solid transparent;
-			}
-
-			p {
-				font-style: italic;
-				color: $brand-white;
+				content: "";
+				position: absolute;
+				display: block;
+				width: 80px;
+				height: 2px;
+				background: $brand-primary;
+				left: 0%;
+				margin-left: 0px;
+				bottom: 0;
 			}
 		}
-		.author {
-			line-height: 20px;
-			color: rgba(0,0,0,1);
-			font-size: 16px;
-			margin-left: 20px;
-			font-weight: 400;
-			a {
-				color: $brand-primary;
-				&:hover {
-					text-decoration: underline;
-				}
-			}
-			> figure {
-				float: left;
-				margin-right: 10px;
-				img {
-					width: 60px;
-					@include border-radius(50%);
-				}
-			}
-			p {
-				float: left;
-				margin-top: 10px;
-			}
-			.subtext {
-				display: block;
-				color: rgba(0,0,0,.5);
-				font-size: 16px;
-				font-weight: 400!important;
-			}
+		&:after {
+			content: "";
+			position: absolute;
+			display: block;
+			width: 80px;
+			height: 2px;
+			background: $brand-primary;
+			left: 50%;
+			margin-left: -40px;
+			bottom: 0;
+		}
+		@media screen and (max-width: $screen-sm) {
+			font-size: 30px;
 		}
 	}
+    h2{
+        margin: 0 0 30px 0;
+        font-size: 32px;
+        font-weight: 300;
+        color: #444;
+        text-transform: uppercase;
+        position: relative;
+        display: block;
+        padding-bottom: 5px;
+        line-height: 1.5;
+
+        &:after {
+			content: "";
+			position: absolute;
+			display: block;
+			width: 80px;
+			height: 2px;
+			background: $brand-primary;
+			left: 50%;
+			margin-left: -40px;
+			bottom: 0;
+		}
+    }
 }
 
 #fh5co-work {
