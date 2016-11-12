@@ -186,15 +186,15 @@
 		}
 	};
 
-	var testimonialAnimate = function() {
-		var testimonial = $('#fh5co-testimonials');
-		if ( testimonial.length > 0 ) {
-			testimonial.waypoint( function( direction ) {
+	var sponsorsAnimate = function() {
+		var sponsors = $('#fh5co-sponsors');
+		if ( sponsors.length > 0 ) {
+			sponsors.waypoint( function( direction ) {
 				if( direction === 'down' && !$(this.element).hasClass('animated') ) {
-					var sec = testimonial.find('.to-animate').length,
+					var sec = sponsors.find('.to-animate').length,
 						sec = parseInt((sec * 200) - 400);
 					setTimeout(function() {
-						testimonial.find('.to-animate').each(function( k ) {
+						sponsors.find('.to-animate').each(function( k ) {
 							var el = $(this);
 							setTimeout ( function () {
 								el.addClass('fadeInUp animated');
@@ -202,7 +202,7 @@
 						});
 					}, 200);
 					setTimeout(function() {
-						testimonial.find('.to-animate-2').each(function( k ) {
+						sponsors.find('.to-animate-2').each(function( k ) {
 							var el = $(this);
 							setTimeout ( function () {
 								el.addClass('fadeInDown animated');
@@ -381,7 +381,7 @@
         venueAnimate();
         aboutAnimate();
 		workAnimate();
-		testimonialAnimate();
+		sponsorsAnimate();
 		schoolsAnimate();
         codeConductAnimate();
 		countersAnimate();
