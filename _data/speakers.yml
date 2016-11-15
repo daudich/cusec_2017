@@ -1,0 +1,41 @@
+keynote:
+    -   name: Amar Shah
+        position: Web Developer &amp; Haskell Enthusiast
+        bio: Amar struggles daily to be a kinder human, and often fails.
+        pic: amar.jpg
+
+    -   name: Lynn Root
+        position: Site Reliability Engineer &amp; FOSS Evangelist @ Spotify
+        bio: Based in NYC, Lynn Root is an insomniac Site Reliability Engineer & the FOSS evangelist for Spotify. She is also a global leader of PyLadies, an international mentorship group for women and friends in the Python community, and the founder & former leader of the San Francisco PyLadies. When her hands are not on a keyboard, they are usually holding a pair of knitting needles.
+        pic: lynn.jpeg
+
+    -   name: Sarah Friend
+        position: Full-stack Developer @ Decentral
+        bio: Sa Friend is a full stack developer at Decentral, where she works on a multi-token cryptocurrency wallet. Before that she played with CNC machines at Guild Eyewear. She's the founder of Small Talk, an interdisciplinary lecture series, and a proud Recurse Center alumna.
+        pic: sarah.jpg
+
+breakout:
+    -   name: Emil Stolarsky
+        position: Production Engineer @ Shopify
+        bio: Emil is a production engineer at Shopify where he works on performance, flash sales, and DNS tooling. When he's not trying to make Shopify's global performance heat map green, he's shivering over a spiked cup of coffee in the great Canadian north.
+        pic: emil.png
+
+    -   name: Kamal Marhubi
+        position: Developer @ Heap
+        bio: Kamal is a developer who's worked with Morgan Stanley, Google, and currently Heap. Ten years ago, he refused to write code in anything other than Haskell. He's since come to appreciate many other languages, and these days really enjoys low-level programming in Rust. He has greater-than-average experience in running his kernel out of memory, temporary retirement, and ringing church bells.
+        pic: kamal-square.jpg
+
+    -   name: Lei Lopez
+        position: Production Engineer @ Shopify
+        bio: Lei graduated from McGill University in Computer Science after an ill-fated start in biology. Now she works on making developers happier as part of the Production Engineering team at Shopify. Her favourite emojis are the potato and cartwheeler from Unicode 9.0.
+        pic: lei.jpg
+
+    -   name: Peter Sobot
+        position: Software Engineer @ PagerDuty
+        bio: "Peter Sobot is a software engineer from Toronto who loves building reliable software that delights people. He currently works at PagerDuty, the company that wakes up other engineers when their software breaks, but recently graduated with a degree in Software Engineering from the University of Waterloo in 2014. He enjoys making music and trolling people by using Comic Sans. Read his ramblings on his website: https://petersobot.com"
+        pic: peter.jpg
+
+    -   name: Huma Zafar
+        position:
+        bio: Huma prefers not to keep her hands still, whether that involves working on one of her many knitting projects, learning a new weaving technique on her loom, typing away at her keyboard as she plays with some new programming language, or gesturing endlessly as she talks. She reads a lot.
+        pic: hzafar.jpg
