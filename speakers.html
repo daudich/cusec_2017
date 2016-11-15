@@ -1,0 +1,121 @@
+---
+layout: speakers
+title: Speakers
+permalink: /speakers/
+---
+
+<section id="fh5co-speakers" class="speakers-page" data-section="speakers">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 section-heading text-center">
+                <h2 class="to-animate">Keynote Speakers</h2>
+            </div>
+        </div>
+        {% for speaker in site.data.speakers.keynote %}
+        <div class="row">
+            <div class="col-md-3 col-md-offset-2">
+                <div class="fh5co-person-pic text-center to-animate">
+                    <figure><img src="{{ "/assets/images/" | prepend: site.url }}{{ speaker.pic }}" alt="Image" class="img-circle img-responsive"></figure>
+                    <h3><strong>{{ speaker.name }}</strong></h3>
+                    <span class="fh5co-position"><em>{{ speaker.position }}</em></span>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="fh5co-person-bio text-left to-animate">
+                    <p>{{ speaker.bio }}</p>
+                </div>
+            </div>
+            {% if forloop.last == false %}
+            <div class="col-md-12">
+                <hr class="to-animate"/>
+            </div>
+            {% endif %}
+        </div>
+        {% endfor %}
+
+        <div class="row">
+            <div class="col-md-12 section-heading breakout text-center">
+                <h2 class="to-animate">Breakout Speakers</h2>
+            </div>
+        </div>
+        {% for speaker in site.data.speakers.breakout %}
+        <div class="row">
+            <div class="col-md-3 col-md-offset-2">
+                <div class="fh5co-person-pic text-center to-animate">
+                    <figure><img src="{{ "/assets/images/" | prepend: site.url }}{{ speaker.pic }}" alt="Image" class="img-circle img-responsive"></figure>
+                    <h3><strong>{{ speaker.name }}</strong></h3>
+                    <span class="fh5co-position"><em>{{ speaker.position }}</em></span>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="fh5co-person-bio text-left to-animate">
+                    <p>{{ speaker.bio }}</p>
+                </div>
+            </div>
+            {% if forloop.last == false %}
+            <div class="col-md-12">
+                <hr class="to-animate"/>
+            </div>
+            {% endif %}
+        </div>
+        {% endfor %}
+	</div>
+</section>
+
+{% comment %}
+<!-- <section id="fh5co-speakers" data-section="about">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 section-heading text-center">
+				<h2 class="to-animate">About</h2>
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 subtext to-animate">
+						<h3>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4">
+				<div class="fh5co-person text-center to-animate">
+					<figure><img src="images/person1.jpg" alt="Image"></figure>
+					<h3>Jean Smith</h3>
+					<span class="fh5co-position">Web Designer</span>
+					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts</p>
+					<ul class="social social-circle">
+						<li><a href="#"><i class="icon-twitter"></i></a></li>
+						<li><a href="#"><i class="icon-facebook"></i></a></li>
+						<li><a href="#"><i class="icon-dribbble"></i></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="fh5co-person text-center to-animate">
+					<figure><img src="images/person2.jpg" alt="Image"></figure>
+					<h3>Rob Smith</h3>
+					<span class="fh5co-position">Web Developer</span>
+					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts</p>
+					<ul class="social social-circle">
+						<li><a href="#"><i class="icon-twitter"></i></a></li>
+						<li><a href="#"><i class="icon-facebook"></i></a></li>
+						<li><a href="#"><i class="icon-github"></i></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="fh5co-person text-center to-animate">
+					<figure><img src="images/person3.jpg" alt="Image"></figure>
+					<h3>Larry Ben</h3>
+					<span class="fh5co-position">Web Designer</span>
+					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts</p>
+					<ul class="social social-circle">
+						<li><a href="#"><i class="icon-twitter"></i></a></li>
+						<li><a href="#"><i class="icon-facebook"></i></a></li>
+						<li><a href="#"><i class="icon-dribbble"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</section> -->
+{% endcomment %}

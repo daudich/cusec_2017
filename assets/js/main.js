@@ -263,7 +263,7 @@
 						codeConduct.find('.to-animate-2').each(function( k ) {
 							var el = $(this);
 							setTimeout ( function () {
-								el.addClass('bounceIn animated');
+								el.addClass('fadeInDown animated');
 							},  k * 200, 'easeInOutExpo' );
 						});
 					}, sec);
@@ -291,6 +291,25 @@
 			} , { offset: '80%' } );
 		}
 	};
+
+    var speakersAnimate = function() {
+        var speakers = $('#fh5co-speakers');
+        if ( speakers.length > 0 ) {
+            speakers.waypoint( function( direction ) {
+                if( direction === 'down' && !$(this.element).hasClass('animated') ) {
+                    setTimeout(function() {
+                        speakers.find('.to-animate').each(function( k ) {
+                            var el = $(this);
+                            setTimeout ( function () {
+                                el.addClass('fadeInUp animated');
+                            },  k * 200, 'easeInOutExpo' );
+                        });
+                    }, 200);
+                    $(this.element).addClass('animated');
+                }
+            } , { offset: '80%' } );
+        }
+    };
 
     var venueAnimate = function() {
 		var about = $('#fh5co-venue');
@@ -380,10 +399,11 @@
 		introAnimate();
         venueAnimate();
         aboutAnimate();
-		workAnimate();
-		sponsorsAnimate();
-		schoolsAnimate();
         codeConductAnimate();
+        schoolsAnimate();
+        sponsorsAnimate();
+        speakersAnimate();
+		workAnimate();
 		countersAnimate();
 		contactAnimate();
 	});
