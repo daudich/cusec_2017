@@ -15,7 +15,7 @@ permalink: /speakers/
         <div class="row">
             <div class="col-md-3 col-md-offset-2">
                 <div class="fh5co-person-pic text-center to-animate">
-                    <figure><img src="{{ "/assets/images/" | prepend: site.url }}{{ speaker.pic }}" alt="Image" class="img-circle img-responsive"></figure>
+                    <figure><img src="{{ "/assets/images/" | prepend: site.url }}{{ speaker.pic | default: 'placeholder.png' }}" alt="Image" class="img-circle img-responsive"></figure>
                     <h3><strong>{{ speaker.name }}</strong></h3>
                     <span class="fh5co-position"><em>{{ speaker.position }}</em></span>
                 </div>
@@ -42,7 +42,7 @@ permalink: /speakers/
         <div class="row">
             <div class="col-md-3 col-md-offset-2">
                 <div class="fh5co-person-pic text-center to-animate">
-                    <figure><img src="{{ "/assets/images/" | prepend: site.url }}{{ speaker.pic }}" alt="Image" class="img-circle img-responsive"></figure>
+                    <figure><img src="{{ "/assets/images/" | prepend: site.url }}{{ speaker.pic | default: 'placeholder.png' }}" alt="Image" class="img-circle img-responsive"></figure>
                     <h3><strong>{{ speaker.name }}</strong></h3>
                     <span class="fh5co-position"><em>{{ speaker.position }}</em></span>
                 </div>
