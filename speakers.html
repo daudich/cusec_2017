@@ -12,25 +12,7 @@ permalink: /speakers/
             </div>
         </div>
         {% for speaker in site.data.speakers.keynote %}
-        <div class="row">
-            <div class="col-md-3 col-md-offset-2">
-                <div class="fh5co-person-pic text-center to-animate">
-                    <figure><img src="{{ "/assets/images/" | prepend: site.url }}{{ speaker.pic | default: 'placeholder.png' }}" alt="Image" class="img-circle img-responsive"></figure>
-                    <h3><strong>{{ speaker.name }}</strong></h3>
-                    <span class="fh5co-position"><em>{{ speaker.position }}</em></span>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="fh5co-person-bio text-left to-animate">
-                    <p>{{ speaker.bio }}</p>
-                </div>
-            </div>
-            {% if forloop.last == false %}
-            <div class="col-md-12">
-                <hr class="to-animate"/>
-            </div>
-            {% endif %}
-        </div>
+          {% include speaker_details.html %}
         {% endfor %}
 
         <div class="row">
@@ -39,25 +21,7 @@ permalink: /speakers/
             </div>
         </div>
         {% for speaker in site.data.speakers.breakout %}
-        <div class="row">
-            <div class="col-md-3 col-md-offset-2">
-                <div class="fh5co-person-pic text-center to-animate">
-                    <figure><img src="{{ "/assets/images/" | prepend: site.url }}{{ speaker.pic | default: 'placeholder.png' }}" alt="Image" class="img-circle img-responsive"></figure>
-                    <h3><strong>{{ speaker.name }}</strong></h3>
-                    <span class="fh5co-position"><em>{{ speaker.position }}</em></span>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="fh5co-person-bio text-left to-animate">
-                    <p>{{ speaker.bio }}</p>
-                </div>
-            </div>
-            {% if forloop.last == false %}
-            <div class="col-md-12">
-                <hr class="to-animate"/>
-            </div>
-            {% endif %}
-        </div>
+          {% include speaker_details.html %}
         {% endfor %}
 	</div>
 </section>
