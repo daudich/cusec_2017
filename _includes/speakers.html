@@ -6,7 +6,7 @@
             </div>
         </div>
         <div class="row">
-            {% for speaker in site.data.speakers.keynote %}
+            {% for speaker in site.data.speakers.keynote limit:3 %}
             <div class="col-md-4 {% if forloop.last == false %} speaker-section {% endif %}">
                 <div class="fh5co-person text-center to-animate">
                     <figure><img src="{{ "/assets/images/" | prepend: site.url }}{{ speaker.pic | default: 'placeholder.png' }}" alt="Image" class="img-circle"></figure>
