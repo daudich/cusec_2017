@@ -3,10 +3,17 @@ keynote:
         position: Web Developer &amp; Haskell Enthusiast
         bio: Amar struggles daily to be a kinder human, and often fails.
         pic: amar.jpg
+        # social:
+        #     -   title: twitter
+        #         url: https://twitter.com/cusec
+        #     -   title: facebook
+        #         url: https://www.facebook.com/CUSEC-9884406702/
+        #     -   title: globe2
+        #         url: http://2017.cusec.net
+        #     -   title: github
+        #         url: https://github.com/cusec
 
     -   name: David Nolen
-        position:
-        bio:
 
     -   name: Liz Abinante
         position: Senior Software Engineer @ New Relic
@@ -19,13 +26,11 @@ keynote:
         pic: lynn.jpeg
 
     -   name: Sarah Mei
-        position:
-        bio:
 
 breakout:
     -   name: Berkley Staite
         position: Volunteer Director @ Techsdale
-        bio: "Whether teaching, playing, or creating, Berkley is driven by the desire to find compelling entry points into the world of games for people of all backgrounds and levels of experience. He believes in the unique potential of interactivity to connect, to persuade, and to inspire, and is committed to sharing and cultivating these possibilities. Berkley brings with him instructional experience in a broad variety of topics: game design, acroyoga, sexual health, and drama, through which he has worked with a wide range of youth and adults. Additionally, his design credits include work for Alientrap Games, Jennifer Ann’s Group, and the Western Development Museum, working in a combination of digital and real-world spaces."
+        bio: "Whether teaching, playing, or creating, Berkley is driven by the desire to find compelling entry points into the world of games for people of all backgrounds and levels of experience. He believes in the unique potential of interactivity to connect, to persuade, and to inspire, and is committed to sharing and cultivating these possibilities. <br><br> Berkley brings with him instructional experience in a broad variety of topics: game design, acroyoga, sexual health, and drama, through which he has worked with a wide range of youth and adults. Additionally, his design credits include work for Alientrap Games, Jennifer Ann’s Group, and the Western Development Museum, working in a combination of digital and real-world spaces."
         pic: berkley.png
 
     -   name: Emil Stolarsky
@@ -34,11 +39,8 @@ breakout:
         pic: emil.png
 
     -   name: Florencia Herra-Vega
-        position:
-        bio:
 
     -   name: Huma Zafar
-        position:
         bio: Huma prefers not to keep her hands still, whether that involves working on one of her many knitting projects, learning a new weaving technique on her loom, typing away at her keyboard as she plays with some new programming language, or gesturing endlessly as she talks. She reads a lot.
         pic: huma.jpg
 
@@ -48,8 +50,6 @@ breakout:
         pic: jamie.jpg
 
     -   name: Jessica Thompson
-        position:
-        bio:
 
     -   name: Kamal Marhubi
         position: Developer @ Heap
@@ -67,8 +67,6 @@ breakout:
         pic: peter.jpg
 
     -   name: Riley J. Shaw
-        position:
-        bio:
 
     -   name: Sarah Anne Friend
         position: Full-stack Developer @ Decentral
@@ -76,5 +74,3 @@ breakout:
         pic: sarahf.jpg
 
     -   name: Prof. Sharief Oteafy
-        position:
-        bio:
