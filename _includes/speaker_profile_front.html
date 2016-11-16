@@ -1,0 +1,12 @@
+<div class="fh5co-person text-center to-animate">
+    <figure><img src="{{ "/assets/images/" | prepend: site.url }}{{ speaker.pic | default: 'placeholder.png'}}" alt="{{ speaker.name }}" class="img-circle"></figure>
+    <h3>{{ speaker.name }}</h3>
+    <span class="fh5co-position">{{ speaker.position }}</span>
+    {% if speaker.social %}
+    <ul class="social social-circle">
+        {% for media in speaker.social %}
+        <li><a href="{{ media.url }}"><i class="icon-{{ media.title }}"></i></a></li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+</div>

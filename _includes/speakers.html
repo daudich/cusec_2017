@@ -7,23 +7,15 @@
         </div>
         <div class="row">
             {% for speaker in site.data.speakers.keynote limit:3 %}
-            <div class="col-md-4 {% if forloop.last == false %} speaker-section {% endif %}">
-                <div class="fh5co-person text-center to-animate">
-                    <figure><img src="{{ "/assets/images/" | prepend: site.url }}{{ speaker.pic | default: 'placeholder.png' }}" alt="{{ speaker.name }}" class="img-circle"></figure>
-                    <h3>{{ speaker.name }}</h3>
-                    <span class="fh5co-position">{{ speaker.position }}</span>
-                </div>
+            <div class="col-md-4 {% if forloop.last == false %} speaker-section {% endif %} {% if speaker.social %} speaker-section-social {% endif %}">
+                {% include speaker_profile_front.html %}
             </div>
             {% endfor %}
         </div>
         <div class="row">
             {% for speaker in site.data.speakers.keynote limit:3 offset:3 %}
-            <div class="col-md-4 {% if forloop.last == false %} speaker-section {% endif %} second-row col-md-offset-1">
-                <div class="fh5co-person text-center to-animate">
-                    <figure><img src="{{ "/assets/images/" | prepend: site.url }}{{ speaker.pic | default: 'placeholder.png'}}" alt="{{ speaker.name }}" class="img-circle"></figure>
-                    <h3>{{ speaker.name }}</h3>
-                    <span class="fh5co-position">{{ speaker.position }}</span>
-                </div>
+            <div class="col-md-4 {% if forloop.last == false %} speaker-section {% endif %} second-row col-md-offset-1 {% if speaker.social %} speaker-section-social {% endif %}">
+                {% include speaker_profile_front.html %}
             </div>
             {% endfor %}
         </div>

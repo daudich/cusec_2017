@@ -3,6 +3,15 @@ keynote:
         position: Web Developer &amp; Haskell Enthusiast
         bio: Amar struggles daily to be a kinder human, and often fails.
         pic: amar.jpg
+        # social:
+        #     -   title: twitter
+        #         url: https://twitter.com/cusec
+        #     -   title: facebook
+        #         url: https://www.facebook.com/CUSEC-9884406702/
+        #     -   title: globe2
+        #         url: http://2017.cusec.net
+        #     -   title: github
+        #         url: https://github.com/cusec
 
     -   name: David Nolen
 

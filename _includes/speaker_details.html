@@ -4,6 +4,13 @@
             <figure><img src="{{ "/assets/images/" | prepend: site.url }}{{ speaker.pic | default: 'placeholder.png' }}" alt="Image" class="img-circle img-responsive"></figure>
             <h3><strong>{{ speaker.name }}</strong></h3>
             <span class="fh5co-position"><em>{{ speaker.position }}</em></span>
+            {% if speaker.social %}
+            <ul class="social social-circle">
+                {% for media in speaker.social %}
+                <li><a href="{{ media.url }}"><i class="icon-{{ media.title }}"></i></a></li>
+                {% endfor %}
+            </ul>
+            {% endif %}
         </div>
     </div>
     <div class="col-md-6">
