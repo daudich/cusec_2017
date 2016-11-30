@@ -1,0 +1,27 @@
+---
+layout: speakers
+title: Team
+permalink: /team/
+---
+
+<section id="fh5co-speakers" class="speakers-page" data-section="team">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 section-heading text-center">
+                <h2 class="to-animate">Team</h2>
+            </div>
+        </div>
+        {% for speaker in site.data.team.organizers %}
+          {% include speaker_details.html %}
+        {% endfor %}
+
+        <div class="row">
+            <div class="col-md-12 section-heading breakout text-center">
+                <h2 class="to-animate">Head Delegates</h2>
+            </div>
+        </div>
+        {% for speaker in site.data.team.delegates %}
+          {% include speaker_details.html %}
+        {% endfor %}
+	</div>
+</section>

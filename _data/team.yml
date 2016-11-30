@@ -1,0 +1,40 @@
+organizers:
+    -   name: Gracey Hlywa-Maytan
+        position: Director of Logistics
+        bio: When you think of Gracey, think of thrill rides. Horror films. Think of your highschool's class clown. Think of reality TV. Think of a wedding planner. A southern tailgate party. Think of the book John Dies at the End by David Wong. But also Franny and Zooey by J.D. Salinger. Mix in the movie Mean Girls. Think of a cat in the sun. You've almost got it. Add a hat. Perfect. There she is. Now come over and say hi, she would love to meet you.
+        pic: gracey.jpeg
+        # social:
+        #     -   title: twitter
+        #         url: https://twitter.com/cusec
+        #     -   title: facebook
+        #         url: https://www.facebook.com/CUSEC-9884406702/
+        #     -   title: globe2
+        #         url: http://2017.cusec.net
+        #     -   title: github
+        #         url: https://github.com/cusec
+
+delegates:
+    -   name: Alan Bridgeman
+        position: Head Delegate @ University of Manitoba
+        bio: Alan is a fourth year Computer Science student at the University of Manitoba located in Winnipeg, Manitoba. His passions include learning the latest technologies, advocating for disability rights and playing D&D. This will be his second time at CUSEC and he is looking forward to another exciting year!
+        pic: alan.jpg
+
+    -   name: Angelo Austria
+        position: Head Delegate @ University of Toronto
+        bio: Angelo is a second year student currently enrolled in the Computer Science Specialist Program with a focus in artificial intelligence at the University of Toronto. He loves to learn about software engineering. His other interests include eating, travelling and binge-watching Game of Thrones.
+        pic: angelo.jpg
+
+    -   name: Chirag Gada
+        position: Head Delegate @ University of Waterloo
+        bio: Entering his last term in Software Engineering at the University of Waterloo. In his spare time he enjoys watching copious amounts of sports and sitcoms. In his 'non-spare' time, he can be seen working on assignments at the local bar. This is his second time at CUSEC and first time on the team.
+        pic: chirag.jpg
+
+    -   name: Ivona Sikiric
+        position: Head Delegate @ <br> York University
+        bio: Ivona is in her fourth and final year of Computer Science at York University. While she is pretending to study, she is actually binge-watching shows on Netflix, playing board games, or going on coffee dates with friends (because coffee = life).
+        pic: ivona.jpg
+
+    -   name: Nabil Sakran
+        position: Head Delegate @ McMaster University
+        bio: "An avid software enthusiast currently in third year software engineering!! <br><br> Favourite Motivational quote: 'Bigger, Better, Faster, Stronger'"
+        pic: nabil.jpg
