@@ -852,11 +852,9 @@ h1, h2, h3, h4, h5, h6 {
 	position: relative;
 	color: rgba(255,255,255,.8);
 	a {
-		color: $brand-white;
+		color: $brand-primary;
 		&:hover {
-			color: $brand-primary;
-            background: $brand-white!important;
-            border: thin solid $brand-primary;
+			color: $brand-red;
 		}
 	}
 	// &:before, &:after {

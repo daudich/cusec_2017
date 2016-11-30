@@ -14,7 +14,7 @@
         </div>
         <div class="row">
             {% for speaker in site.data.speakers.keynote limit:3 offset:3 %}
-            <div class="col-md-4 {% if forloop.last == false %} speaker-section {% endif %} second-row col-md-offset-1 {% if speaker.social %} speaker-section-social {% endif %}">
+            <div class="col-md-4 {% if forloop.last == false %} speaker-section {% endif %} second-row {% if speaker.social %} speaker-section-social {% endif %}">
                 {% include speaker_profile_front.html %}
             </div>
             {% endfor %}

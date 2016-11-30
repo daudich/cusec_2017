@@ -27,6 +27,11 @@ keynote:
 
     -   name: Sarah Mei
 
+    -   name: Tracy Osborn
+        position: Designer, Developer, &amp; Entreprenerd
+        bio: "Tracy Osborn is a designer, developer, and entreprenerd living in Toronto, Canada. She's the author of <a href='http://hellowebapp.com/'>Hello Web App</a> and the upcoming <a href='http://weddinglovely.com/'>Hello Web Design</a>, as well as the creator of WeddingLovely. She's also an avid outdoorswoman and would love to go on a hike with you."
+        pic: tracy.png
+
 breakout:
     -   name: Berkley Staite
         position: Volunteer Director @ Techsdale
