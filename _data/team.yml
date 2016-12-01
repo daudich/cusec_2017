@@ -13,6 +13,11 @@ organizers:
         #     -   title: github
         #         url: https://github.com/cusec
 
+    -   name: Kenny Hong
+        position: Director of Sponsorship
+        bio: "Kenny is a Computer Science student at the University of Manitoba located in Winterp… Winnipeg, Manisnow… Manitoba. His passions include a mix of singing, learning the latest technologies and sometimes both at the same time. He also hopes to one day become the #1 Super Saiyan Chef Duelist from Pallet Town."
+        pic: kenny.jpg
+
 delegates:
     -   name: Alan Bridgeman
         position: Head Delegate @ University of Manitoba
