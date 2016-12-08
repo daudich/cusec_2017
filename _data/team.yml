@@ -1,4 +1,9 @@
 organizers:
+    -   name: Dhiren Audich
+        position: Director of Design
+        bio: Dhiren /ðireɪn/ is a MSc. candidate at the University of Guelph. His research interests include text mining, NLP, ontologies, and online privacy. When he isn't p̶r̶o̶c̶r̶a̶s̶t̶i̶n̶a̶t̶i̶n̶g̶  doing research, he is reading books, biking, cooking, reading news articles on security and privacy, and figuring out the meaning of life (he is aware of 42, but he doesn't trust the person who told him so).
+        pic: dhiren.png
+
     -   name: Gracey Hlywa-Maytan
         position: Director of Logistics
         bio: When you think of Gracey, think of thrill rides. Horror films. Think of your highschool's class clown. Think of reality TV. Think of a wedding planner. A southern tailgate party. Think of the book John Dies at the End by David Wong. But also Franny and Zooey by J.D. Salinger. Mix in the movie Mean Girls. Think of a cat in the sun. You've almost got it. Add a hat. Perfect. There she is. Now come over and say hi, she would love to meet you.
@@ -12,6 +17,16 @@ organizers:
         #         url: http://2017.cusec.net
         #     -   title: github
         #         url: https://github.com/cusec
+
+    -   name: James Talarico
+        position: Logistics Team
+        bio: James is a third year Software Engineering student at Concordia University. It is his second year attending CUSEC, but his first time being part of the team. He loves cooking, skiing and sailing. He is also incredibly photogenic...
+        pic: james.jpg
+
+    -   name: Jonathan Gratton
+        position: Director of Events
+        bio: Jonathan is a third year Computer Science student at the University of Ottawa. In his free time, he fancies photography, novels, and the occasional video game. He also enjoys attending and organizing conventions, and some of his favorite tele series include Game of Thrones, House of Cards, and Battlestar Galactica. If you see him around the conference floor, don’t be shy, spark up a conversation!
+        pic: jonathan.jpg
 
     -   name: Kenny Hong
         position: Director of Sponsorship
@@ -43,3 +58,13 @@ delegates:
         position: Head Delegate @ McMaster University
         bio: "An avid software enthusiast currently in third year software engineering!! <br><br> Favourite Motivational quote: 'Bigger, Better, Faster, Stronger'"
         pic: nabil.jpg
+
+    -   name: Paul Lee
+        position: Head Delegate @ University of Ottawa
+        bio: "Hey! My name's Paul and I'm a 3rd year student at the University of Ottawa, majoring in Computer Engineering. I attended CUSEC 2015 last year and had an amazing time, but I wanted the most out of the conference so I joined the organising committee as a head delegate! I think CUSEC is a great opportunity for undergraduate students, and I wanted to do my part in keeping its' great reputation up! See you in Montreal!"
+        pic: paul.jpg
+
+    -   name: Vinith Suriyakumar
+        position: Head Delegate @ Queen's University
+        bio: Hey everyone! I am currently a 3rd year student at Queen's University, specializing in Biomedical Computing! I have a big passion for clinical engineering and seeing how we can improve problems in operating rooms using software! Outside of computer science, I have a 1st degree black belt from 14 year of Karate, am a pretty avid concert-goer (I've been to approximately 20 in the past two years, although some of those were part of music festivals), and enjoy the usual cup of hot chocolate!
+        pic: vinith.jpg
