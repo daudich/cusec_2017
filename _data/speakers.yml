@@ -72,6 +72,8 @@ breakout:
         pic: peter.jpg
 
     -   name: Riley J. Shaw
+        bio: Riley wrote this about himself. He works at Khan Academy, where he's proudly removed more lines of code than he's added. He hopes you're happy and fulfilled at school, or wherever you may be.
+        pic: riley.png
 
     -   name: Sarah Anne Friend
         position: Full-stack Developer @ Decentral
