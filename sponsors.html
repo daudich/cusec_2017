@@ -21,7 +21,7 @@ permalink: /sponsors/
 				<h2 class="to-animate">Partner</h2>
                 <div class="row">
     				<div class="col-md-8 col-md-offset-2 to-animate-2">
-    					<img src="{{ '/assets/images/sponsor_kinaxis.png' | prepend: site.url }}" alt="Kinaxis logo" class="img-responsive center-block">
+    					<img src="{{ '/assets/images/' | prepend: site.url | append: site.data.sponsors.partner.logo }}" alt="{{ site.data.sponsors.partner.alt_text }}" class="img-responsive center-block">
     				</div>
                 </div>
 			</div>
@@ -30,31 +30,13 @@ permalink: /sponsors/
             <div class="col-md-12 text-center">
                 <h2 class="to-animate">Gold Sponsors</h2>
                 <div class="row">
+                    {% for sponsor in site.data.sponsors.gold %}
         			<div class="col-xs-6 col-sm-4 col-md-3 to-animate-2">
                         <div class="sponsor-item">
-        					<img src="{{ '/assets/images/sponsor_yelp.png' | prepend: site.url }}" alt="Yelp logo" class="img-responsive center-block">
+        					<img src="{{ '/assets/images/' | prepend: site.url | append: sponsor.logo }}" alt="{{ sponsor.alt_text }}" class="img-responsive center-block">
                         </div>
         			</div>
-                    <div class="col-xs-6 col-sm-4 col-md-3 to-animate-2">
-                        <div class="sponsor-item">
-                            <img src="{{ '/assets/images/sponsor_rbc.png' | prepend: site.url }}" alt="Royal Bank of Canada logo" class="img-responsive center-block">
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-sm-4 col-md-3 to-animate-2">
-                        <div class="sponsor-item">
-                            <img src="{{ '/assets/images/cae.png' | prepend: site.url }}" alt="Cae logo" class="img-responsive center-block">
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-sm-4 col-md-3 to-animate-2">
-                        <div class="sponsor-item">
-                            <img src="{{ '/assets/images/ibm.png' | prepend: site.url }}" alt="IBM logo" class="img-responsive center-block">
-                        </div>
-                    </div>
-                    <!-- <div class="col-xs-6 col-sm-4 col-md-3 to-animate-2">
-                        <div class="sponsor-item">
-                            <img src="{{ '/assets/images/sponsor_rbc.png' | prepend: site.url }}" alt="Royal Bank of Canada logo" class="img-responsive center-block">
-                        </div>
-                    </div> -->
+                    {% endfor %}
                 </div>
             </div>
         </div>
@@ -62,21 +44,27 @@ permalink: /sponsors/
             <div class="col-md-12 text-center">
                 <h2 class="to-animate">Silver Sponsors</h2>
                 <div class="row">
-        			<div class="col-xs-6 col-sm-6 col-md-6 to-animate-2">
+                    {% for sponsor in site.data.sponsors.silver %}
+        			<div class="col-xs-6 col-sm-4 col-md-4 to-animate-2">
                         <div class="sponsor-item">
-        					<img src="{{ '/assets/images/sponsor_stanley.png' | prepend: site.url }}" alt="Morgan Stanley logo" class="img-responsive center-block">
+        					<img src="{{ '/assets/images/' | prepend: site.url | append: sponsor.logo }}" alt="{{ sponsor.alt_text }}" class="img-responsive center-block">
                         </div>
         			</div>
-                    <div class="col-xs-6 col-sm-6 col-md-6 to-animate-2">
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+        <div class="row silver">
+            <div class="col-md-12 text-center">
+                <h2 class="to-animate">Bronze Sponsors</h2>
+                <div class="row">
+                    {% for sponsor in site.data.sponsors.bronze %}
+        			<div class="col-xs-12 col-sm-12 col-md-12 to-animate-2">
                         <div class="sponsor-item">
-                            <img src="{{ '/assets/images/sponsor_wealthsimple.png' | prepend: site.url }}" alt="Wealth Simple logo" class="img-responsive center-block">
+        					<img src="{{ '/assets/images/' | prepend: site.url | append: sponsor.logo }}" alt="{{ sponsor.alt_text }}" class="img-responsive center-block">
                         </div>
-                    </div>
-                    <!-- <div class="col-xs-6 col-sm-4 col-md-3 to-animate-2">
-                        <div class="sponsor-item">
-                            <img src="{{ '/assets/images/sponsor_wealthsimple.png' | prepend: site.url }}" alt="Wealth Simple logo" class="img-responsive center-block">
-                        </div>
-                    </div> -->
+        			</div>
+                    {% endfor %}
                 </div>
             </div>
         </div>
