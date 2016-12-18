@@ -1,0 +1,39 @@
+partner:
+    logo: sponsor_kinaxis.png
+    alt_text: Kinaxis logo
+
+gold:
+    -   logo: sponsor_yelp.png
+        alt_text: Yelp logo
+
+    -   logo: sponsor_rbc.png
+        alt_text: Royal Bank of Canada logo
+
+    -   logo: sponsor_cae.png
+        alt_text: Cae logo
+
+    -   logo: sponsor_ibm.png
+        alt_text: IBM logo
+
+    -   logo: sponsor_ubisoft.png
+        alt_text: Ubisoft logo
+
+    -   logo: sponsor_cse.png
+        alt_text: Royal Bank of Canada logo
+
+    -   logo: sponsor_capone.png
+        alt_text: Capital One logo
+
+silver:
+    -   logo: sponsor_stanley.png
+        alt_text: Morgan Stanley logo
+
+    -   logo: sponsor_wealthsimple.png
+        alt_text: Wealth Simple logo
+
+    -   logo: sponsor_sap.png
+        alt_text: SAP logo
+
+bronze:
+    -   logo: sponsor_apphelp.png
+        alt_text: App Help logo
