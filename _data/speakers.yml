@@ -22,7 +22,7 @@ keynote:
 
     -   name: Lynn Root
         position: Site Reliability Engineer &amp; FOSS Evangelist @ Spotify
-        bio: Based in NYC, Lynn Root is an insomniac Site Reliability Engineer & the FOSS evangelist for Spotify. She is also a global leader of PyLadies, an international mentorship group for women and friends in the Python community, and the founder & former leader of the San Francisco PyLadies. When her hands are not on a keyboard, they are usually holding a pair of knitting needles.
+        bio: Based in NYC, Lynn Root is an insomniac Site Reliability Engineer &amp; the FOSS evangelist for Spotify. She is also a global leader of PyLadies, an international mentorship group for women and friends in the Python community, and the founder &amp; former leader of the San Francisco PyLadies. When her hands are not on a keyboard, they are usually holding a pair of knitting needles.
         pic: lynn.jpeg
 
     -   name: Sarah Mei
@@ -44,6 +44,9 @@ breakout:
         pic: emil.png
 
     -   name: Florencia Herra-Vega
+        position: CTO @ Peerio
+        bio: Florencia Herra Vega is an excitable generalist who loves trying to break down and explain complex technical problems. As the CTO of Peerio, she wrangles distributed systems, distributed teams, and trying to make end-to-end encryption usable to humans.<br><br>In addition to her career as a developer, she has also spent the past decade running popular education programs on topics ranging from sexual health to introductions to coding. She likes to take a harm reduction approach to digital security.<br><br>Florencia was born in Costa Rica and lives in Montreal. When not in front of a computer, she enjoys cooking intricate meals, the writing of Octavia Butler and Ursula K. LeGuin, and lifting weights.
+        pic: florencia.jpg
 
     -   name: Huma Zafar
         bio: Huma prefers not to keep her hands still, whether that involves working on one of her many knitting projects, learning a new weaving technique on her loom, typing away at her keyboard as she plays with some new programming language, or gesturing endlessly as she talks. She reads a lot.
@@ -81,3 +84,6 @@ breakout:
         pic: sarahf.jpg
 
     -   name: Prof. Sharief Oteafy
+        position: Research Fellow &amp; Adjunct Assistant Professor @ Queen's University
+        bio: "A Computer scientist trying to re-vamp our view of this discipline, and guide young learners to their unique paths in Computing! To know more, here’s my website: <a href='http://cs.queensu.ca/~oteafy/'>cs.queensu.ca/~oteafy</a> :)"
+        pic: oteafy.jpg
