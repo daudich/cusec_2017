@@ -24,6 +24,9 @@ gold:
     -   logo: sponsor_capone.png
         alt_text: Capital One logo
 
+    -   logo: sponsor_shopify.svg
+        alt_text: Shopify logo
+
 silver:
     -   logo: sponsor_stanley.png
         alt_text: Morgan Stanley logo
@@ -34,6 +37,18 @@ silver:
     -   logo: sponsor_sap.png
         alt_text: SAP logo
 
+    -   logo: sponsor_wind.png
+        alt_text: Wind River logo
+
+    -   logo: sponsor_lightspeed.png
+        alt_text: Lightspeed logo
+
 bronze:
     -   logo: sponsor_apphelp.png
         alt_text: App Help logo
+
+    # -   logo: sponsor_realdecoy.png
+    #     alt_text: Real decoy logo
+
+    -   logo: sponsor_bmo.png
+        alt_text: Bank of Montreal logo
