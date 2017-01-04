@@ -3,9 +3,9 @@ keynote:
         position: Web Developer &amp; Haskell Enthusiast
         bio: Amar struggles daily to be a kinder human, and often fails.
         pic: amar.jpg
-        # social:
-        #     -   title: twitter
-        #         url: https://twitter.com/cusec
+        social:
+            -   title: twitter
+                url: https://twitter.com/amar47shah
         #     -   title: facebook
         #         url: https://www.facebook.com/CUSEC-9884406702/
         #     -   title: globe2
@@ -14,76 +14,135 @@ keynote:
         #         url: https://github.com/cusec
 
     -   name: David Nolen
+        bio: David Nolen is a curious programmer, musician, and teacher living in Brooklyn. He currently writes Clojure, JavaScript and Ruby for Cognitect. He also helps run the affordable Kitchen Table Coders workshops from a Brooklyn studio. In his free time he contributes to several open source Clojure projects including core.match, core.logic and ClojureScript.
+        pic: david.png
+        social:
+            -   title: twitter
+                url: https://twitter.com/swannodette
 
     -   name: Liz Abinante
         position: Senior Software Engineer @ New Relic
         bio: Liz Abinante lives in Portland, Oregon and works as a Senior Software Engineer at New Relic. She is infectiously enthusiastic about web development, teaching, learning, and feminism. She enjoys speaking at conferences, knitting, sewing, and a hacking away on interesting problems. Her greatest dream in life is to spend her entire day surrounded by puppies while coding.
         pic: liz.jpg
+        social:
+            -   title: twitter
+                url: https://twitter.com/feministy
 
     -   name: Lynn Root
         position: Site Reliability Engineer &amp; FOSS Evangelist @ Spotify
         bio: Based in NYC, Lynn Root is an insomniac Site Reliability Engineer &amp; the FOSS evangelist for Spotify. She is also a global leader of PyLadies, an international mentorship group for women and friends in the Python community, and the founder &amp; former leader of the San Francisco PyLadies. When her hands are not on a keyboard, they are usually holding a pair of knitting needles.
         pic: lynn.jpeg
+        social:
+            -   title: twitter
+                url: https://twitter.com/roguelynn
 
     -   name: Sarah Mei
+        position: Chief Consultant @ DevMynd Software
+        bio: I am a Ruby and JavaScript developer based in San Francisco, California. I’m the Chief Consultant at DevMynd Software, where I spend most of my time pairing with my clients’ developers, helping level up their team. My particular areas of interest are OOP, service refactorings, growing teams, and inter-developer dynamics.
+        pic: sarahm.png
+        social:
+            -   title: twitter
+                url: https://twitter.com/sarahmei
 
     -   name: Tracy Osborn
         position: Designer, Developer, &amp; Entreprenerd
         bio: "Tracy Osborn is a designer, developer, and entreprenerd living in Toronto, Canada. She's the author of <a href='http://hellowebapp.com/'>Hello Web App</a> and the upcoming <a href='http://weddinglovely.com/'>Hello Web Design</a>, as well as the creator of WeddingLovely. She's also an avid outdoorswoman and would love to go on a hike with you."
         pic: tracy.png
+        social:
+            -   title: twitter
+                url: https://twitter.com/limedaring
 
 breakout:
     -   name: Berkley Staite
         position: Volunteer Director @ Techsdale
         bio: "Whether teaching, playing, or creating, Berkley is driven by the desire to find compelling entry points into the world of games for people of all backgrounds and levels of experience. He believes in the unique potential of interactivity to connect, to persuade, and to inspire, and is committed to sharing and cultivating these possibilities. <br><br> Berkley brings with him instructional experience in a broad variety of topics: game design, acroyoga, sexual health, and drama, through which he has worked with a wide range of youth and adults. Additionally, his design credits include work for Alientrap Games, Jennifer Ann’s Group, and the Western Development Museum, working in a combination of digital and real-world spaces."
         pic: berkley.png
+        social:
+            -   title: twitter
+                url: https://twitter.com/berv_
 
     -   name: Emil Stolarsky
         position: Production Engineer @ Shopify
         bio: Emil is a production engineer at Shopify where he works on performance, flash sales, and DNS tooling. When he's not trying to make Shopify's global performance heat map green, he's shivering over a spiked cup of coffee in the great Canadian north.
         pic: emil.png
+        social:
+            -   title: twitter
+                url: https://twitter.com/emilstolarsky
 
     -   name: Florencia Herra-Vega
         position: CTO @ Peerio
         bio: Florencia Herra Vega is an excitable generalist who loves trying to break down and explain complex technical problems. As the CTO of Peerio, she wrangles distributed systems, distributed teams, and trying to make end-to-end encryption usable to humans.<br><br>In addition to her career as a developer, she has also spent the past decade running popular education programs on topics ranging from sexual health to introductions to coding. She likes to take a harm reduction approach to digital security.<br><br>Florencia was born in Costa Rica and lives in Montreal. When not in front of a computer, she enjoys cooking intricate meals, the writing of Octavia Butler and Ursula K. LeGuin, and lifting weights.
         pic: florencia.jpg
+        social:
+            -   title: twitter
+                url: https://twitter.com/flohdot
 
     -   name: Huma Zafar
         bio: Huma prefers not to keep her hands still, whether that involves working on one of her many knitting projects, learning a new weaving technique on her loom, typing away at her keyboard as she plays with some new programming language, or gesturing endlessly as she talks. She reads a lot.
         pic: huma.jpg
+        social:
+            -   title: twitter
+                url: https://twitter.com/electricspectra
 
     -   name: Jamie Wong
         position:
         bio: Jamie Wong works at Figma helping to build the next generation of interface design tools. Before that, he worked on site speed infrastructure and internationalization tools at Khan Academy. Before *that*, he was working on getting the coveted engineering iron ring from uWaterloo until 2014. He can be seen mostly fiddling with said iron ring, and probably dropping it. Honestly, it's a miracle it isn't in a storm drain somewhere.
         pic: jamie.jpg
+        social:
+            -   title: twitter
+                url: https://twitter.com/jlfwong
 
     -   name: Jessica Thompson
+        bio: I am a PhD student at the International Laboratory for Brain, Music & Sound Research (BRAMS) and the Montreal Institute for Learning Algorithms (MILA). My research interests lay at the intersection of cognitive neuroscience and machine learning. I’m interested in how deep learning can help us understand human brain function and also how measurements of brain activity can be leveraged to design and understand neuromorphic systems. Specifically, I try to discover the computational mechanisms underlying human auditory perception using computational modeling, deep learning and ultra high-field neuroimaging.
+        pic: jessica.jpg
+        social:
+            -   title: twitter
+                url: https://twitter.com/tsonj
 
     -   name: Kamal Marhubi
         position: Developer @ Heap
         bio: Kamal is a developer who's worked with Morgan Stanley, Google, and currently Heap. Ten years ago, he refused to write code in anything other than Haskell. He's since come to appreciate many other languages, and these days really enjoys low-level programming in Rust. He has greater-than-average experience in running his kernel out of memory, temporary retirement, and ringing church bells.
         pic: kamal-square.jpg
+        social:
+            -   title: twitter
+                url: https://twitter.com/kamalmarhubi
 
     -   name: Lei Lopez
         position: Production Engineer @ Shopify
         bio: Lei graduated from McGill University in Computer Science after an ill-fated start in biology. Now she works on making developers happier as part of the Production Engineering team at Shopify. Her favourite emojis are the potato and cartwheeler from Unicode 9.0.
         pic: lei.jpg
+        social:
+            -   title: twitter
+                url: https://twitter.com/emojineeer
 
     -   name: Peter Sobot
         position: Software Engineer @ PagerDuty
         bio: "Peter Sobot is a software engineer from Toronto who loves building reliable software that delights people. He currently works at PagerDuty, the company that wakes up other engineers when their software breaks, but recently graduated with a degree in Software Engineering from the University of Waterloo in 2014. He enjoys making music and trolling people by using Comic Sans. Read his ramblings on his website: https://petersobot.com"
         pic: peter.jpg
+        social:
+            -   title: twitter
+                url: https://twitter.com/psobot
 
     -   name: Riley J. Shaw
         bio: Riley wrote this about himself. He works at Khan Academy, where he's proudly removed more lines of code than he's added. He hopes you're happy and fulfilled at school, or wherever you may be.
         pic: riley.png
+        social:
+            -   title: twitter
+                url: https://twitter.com/rileyjshaw
 
     -   name: Sarah Anne Friend
-        position: Full-stack Developer @ Decentral
-        bio: Sa Friend is a full stack developer at Decentral, where she works on a multi-token cryptocurrency wallet. Before that she played with CNC machines at Guild Eyewear. She's the founder of Small Talk, an interdisciplinary lecture series, and a proud Recurse Center alumna.
+        bio: Sa Friend is a blockchain developer working on analytics and open source infrastructure. Before that she played with CNC machines at Guild Eyewear. She's the founder of Small Talk, an interdisciplinary lecture series, and a proud Recurse Center alumna.
         pic: sarahf.jpg
+        social:
+            -   title: twitter
+                url: https://twitter.com/isthisanart_
 
     -   name: Prof. Sharief Oteafy
         position: Research Fellow &amp; Adjunct Assistant Professor @ Queen's University
         bio: "A Computer scientist trying to re-vamp our view of this discipline, and guide young learners to their unique paths in Computing! To know more, here’s my website: <a href='http://cs.queensu.ca/~oteafy/'>cs.queensu.ca/~oteafy</a> :)"
         pic: oteafy.jpg
+        social:
+            -   title: twitter
+                url: https://twitter.com/SOteafy
+            -   title: globe2
+                url: http://cs.queensu.ca/~oteafy/

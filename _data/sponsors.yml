@@ -1,54 +1,68 @@
 partner:
     logo: sponsor_kinaxis.png
     alt_text: Kinaxis logo
+    url: http://www.kinaxis.com/
 
 gold:
     -   logo: sponsor_yelp.png
         alt_text: Yelp logo
+        url: https://www.yelp.com/
 
     -   logo: sponsor_rbc.png
         alt_text: Royal Bank of Canada logo
+        url: http://www.rbc.com/careers/
 
     -   logo: sponsor_cae.png
         alt_text: Cae logo
+        url: http://www.cae.com/
 
     -   logo: sponsor_ibm.png
         alt_text: IBM logo
+        url: https://www.ibm.com/ca-en/
 
     -   logo: sponsor_ubisoft.png
         alt_text: Ubisoft logo
+        url: https://www.ubisoft.com/fr-CA/
 
     -   logo: sponsor_cse.png
-        alt_text: Royal Bank of Canada logo
+        alt_text: Communications Security Establishment logo
 
     -   logo: sponsor_capone.png
         alt_text: Capital One logo
 
     -   logo: sponsor_shopify.svg
         alt_text: Shopify logo
+        url: https://www.shopify.ca/
 
 silver:
     -   logo: sponsor_stanley.png
         alt_text: Morgan Stanley logo
+        url: http://www.morganstanley.com/
 
     -   logo: sponsor_wealthsimple.png
         alt_text: Wealth Simple logo
+        url: https://www.wealthsimple.com/
 
     -   logo: sponsor_sap.png
         alt_text: SAP logo
+        url: http://www.sap.com/index.html
 
     -   logo: sponsor_wind.png
         alt_text: Wind River logo
+        url: http://www.windriver.com/
 
     -   logo: sponsor_lightspeed.png
         alt_text: Lightspeed logo
 
 bronze:
     -   logo: sponsor_apphelp.png
-        alt_text: App Help logo
+        alt_text: App Direct logo
+        url: https://www.appdirect.com/
 
-    # -   logo: sponsor_realdecoy.png
-    #     alt_text: Real decoy logo
+    -   logo: sponsor_realdecoy.png
+        alt_text: Real decoy logo
+        url: https://www.realdecoy.com/home/
 
     -   logo: sponsor_bmo.png
         alt_text: Bank of Montreal logo
+        url: https://www.bmo.com/main/personal
