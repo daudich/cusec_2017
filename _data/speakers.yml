@@ -6,6 +6,8 @@ keynote:
 
     -   name: David Nolen
         twitter: swannodette
+        bio: David Nolen is a curious programmer, musician, and teacher living in Brooklyn. He currently writes Clojure, JavaScript and Ruby for Cognitect. He also helps run the affordable Kitchen Table Coders workshops from a Brooklyn studio. In his free time he contributes to several open source Clojure projects including core.match, core.logic and ClojureScript.
+        pic: david.png
 
     -   name: Liz Abinante
         twitter: feministy
@@ -19,6 +21,8 @@ keynote:
 
     -   name: Sarah Mei
         twitter: sarahmei
+        bio: I am a Ruby and JavaScript developer based in San Francisco, California. I’m the Chief Consultant at DevMynd Software, where I spend most of my time pairing with my clients’ developers, helping level up their team. My particular areas of interest are OOP, service refactorings, growing teams, and inter-developer dynamics.
+        pic: sarahm.png
 
     -   name: Tracy Osborn
         twitter: limedaring
@@ -53,6 +57,8 @@ breakout:
 
     -   name: Jessica Thompson
         twitter: tsonj
+        bio: I am a PhD student at the International Laboratory for Brain, Music & Sound Research (BRAMS) and the Montreal Institute for Learning Algorithms (MILA). My research interests lay at the intersection of cognitive neuroscience and machine learning. I’m interested in how deep learning can help us understand human brain function and also how measurements of brain activity can be leveraged to design and understand neuromorphic systems. Specifically, I try to discover the computational mechanisms underlying human auditory perception using computational modeling, deep learning and ultra high-field neuroimaging.
+        pic: jessica.jpg
 
     -   name: Kamal Marhubi
         twitter: kamalmarhubi
@@ -76,7 +82,7 @@ breakout:
 
     -   name: Sarah Anne Friend
         twitter: isthisanart_
-        bio: Sa Friend is a full stack developer at Decentral, where she works on a multi-token cryptocurrency wallet. Before that she played with CNC machines at Guild Eyewear. She's the founder of Small Talk, an interdisciplinary lecture series, and a proud Recurse Center alumna.
+        bio: Sa Friend is a blockchain developer working on analytics and open source infrastructure. Before that she played with CNC machines at Guild Eyewear. She's the founder of Small Talk, an interdisciplinary lecture series, and a proud Recurse Center alumna.
         pic: sarahf.jpg
 
     -   name: Prof. Sharief Oteafy
