@@ -857,6 +857,13 @@ h1, h2, h3, h4, h5, h6 {
 			color: $brand-red;
 		}
 	}
+    .social-circle {
+        a {
+            background: $brand-primary;
+            color: $brand-white;
+            @include border-radius(50%);
+        }
+    }
 	// &:before, &:after {
 	// 	position: absolute;
 	// 	transform: rotate(-1.7deg);
