@@ -1,7 +1,7 @@
 <div class="fh5co-person text-center to-animate">
     <figure><img src="{{ "/assets/images/" | prepend: site.url }}{{ speaker.pic | default: 'placeholder.png'}}" alt="{{ speaker.name }}" class="img-circle"></figure>
     <h3>{{ speaker.name }}</h3>
-    <a href="https://twitter.com/"{{ speaker.twitter }}><span class="fh5co-twitter">{{ speaker.twitter }}</span></a>
+    <a href="https://twitter.com/{{ speaker.twitter }}"><span class="fh5co-twitter">@{{ speaker.twitter }}</span></a>
     {% if speaker.social %}
     <ul class="social social-circle">
         {% for media in speaker.social %}
