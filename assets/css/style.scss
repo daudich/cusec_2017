@@ -912,6 +912,28 @@ h1, h2, h3, h4, h5, h6 {
     .day {
         padding-bottom: 3em;
     }
+    table {
+        color: $brand-secondary;
+        font-weight: 400;
+        th {
+            text-align: center;
+        }
+        td {
+            vertical-align: middle;
+        }
+        .keynote, .talk {
+            background-color: rgba($brand-red, 0.05);
+            .note {
+                font-size: 80%;
+            }
+        }
+        .event {
+            background-color: rgba($brand-darker, 0.1);
+        }
+        .workshop {
+            background-color: rgba($brand-secondary, 0.05);
+        }
+    }
 }
 
 #fh5co-speakers {
