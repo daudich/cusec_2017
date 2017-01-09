@@ -1,4 +1,9 @@
 organizers:
+    -   name: Kim Noel
+        position: CUSEC 2017 Chair (@NoelKM)
+        bio: Kim is a third year software engineering student at Concordia University. Since I was young, I loved disassembling electronics and solving puzzles. Technology is much more than a passion for me. I have a natural need to create, imagine, and build.<br /><br /> 'The opportunity is yours to help people live the lives that they deserve to live.' - Michael R. Bernstein, from CUSEC 2016
+        pic: kim.jpg
+
     -   name: Aniqah Mair
         position: Director of Speakers
         bio: Aniqah is a third year Computing student at Queen’s University in Kingston who is continually fascinated by these amazing devices we call computers and their impact on society. She serves as President of her faculty society, which is really neat but also really time-consuming. In her negative spare time, she can often be found getting involved in even more activities on campus. Once in a blue moon, you may find her studying. She is super duper excited about this year’s awesome speaker lineup and hopes that you are too!
@@ -13,15 +18,6 @@ organizers:
         position: Director of Logistics
         bio: When you think of Gracey, think of thrill rides. Horror films. Think of your highschool's class clown. Think of reality TV. Think of a wedding planner. A southern tailgate party. Think of the book John Dies at the End by David Wong. But also Franny and Zooey by J.D. Salinger. Mix in the movie Mean Girls. Think of a cat in the sun. You've almost got it. Add a hat. Perfect. There she is. Now come over and say hi, she would love to meet you.
         pic: gracey.jpeg
-        # social:
-        #     -   title: twitter
-        #         url: https://twitter.com/cusec
-        #     -   title: facebook
-        #         url: https://www.facebook.com/CUSEC-9884406702/
-        #     -   title: globe2
-        #         url: http://2017.cusec.net
-        #     -   title: github
-        #         url: https://github.com/cusec
 
     -   name: James Talarico
         position: Logistics Team
@@ -38,11 +34,21 @@ organizers:
         bio: "Kenny is a Computer Science student at the University of Manitoba located in Winterp… Winnipeg, Manisnow… Manitoba. His passions include a mix of singing, learning the latest technologies and sometimes both at the same time. He also hopes to one day become the #1 Super Saiyan Chef Duelist from Pallet Town."
         pic: kenny.jpg
 
+    -   name: Sébastien Roy
+        position: Director of A/V
+        bio: Sébastien is currently in his third year studying Software Engineering (ou plutôt Génie Logiciel) at the University of Ottawa. This will be his third CUSEC, but his first time as part of the team! In his spare time, he enjoys playing football, tennis and swing dancing.
+        pic: sebastien.jpg
+
 delegates:
     -   name: Alan Bridgeman
         position: Head Delegate @ University of Manitoba
         bio: Alan is a fourth year Computer Science student at the University of Manitoba located in Winnipeg, Manitoba. His passions include learning the latest technologies, advocating for disability rights and playing D&D. This will be his second time at CUSEC and he is looking forward to another exciting year!
         pic: alan.jpg
+
+    -   name: Alessandro Power
+        position: Head Delegate @ Concordia University
+        bio: Alessandro is a third year Software Engineering student at Concordia University. When he isn't studying or writing software for satellites, you can find him reading or watching just one more episode on Netflix.
+        pic: alessandro.jpg
 
     -   name: Angelo Austria
         position: Head Delegate @ University of Toronto
