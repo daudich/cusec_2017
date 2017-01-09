@@ -503,7 +503,7 @@ h1, h2, h3, h4, h5, h6 {
 	}
 }
 
-#fh5co-schools, #fh5co-code, #fh5co-sponsors, #fh5co-counters, #fh5co-speakers, #fh5co-contact, #fh5co-about, #fh5co-venue, #fh5co-schedule {
+#fh5co-schools, #fh5co-code, #fh5co-sponsors, #fh5co-counters, #fh5co-speakers, #fh5co-contact, #fh5co-about, #fh5co-venue, #fh5co-schedule, #fh5co-workshops {
 	padding: 4em 0;
 	@media screen and (max-width: $screen-sm) {
 		padding: 2em 0;
@@ -589,7 +589,7 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
-#fh5co-schools, #fh5co-code, #fh5co-speakers, #fh5co-counters, #fh5co-sponsors, #fh5co-schedule {
+#fh5co-schools, #fh5co-code, #fh5co-speakers, #fh5co-counters, #fh5co-sponsors, #fh5co-schedule, #fh5co-workshops {
 	padding: 7em 0;
 	@media screen and (max-width: $screen-sm) {
 		padding: 4em 0;
@@ -932,6 +932,117 @@ h1, h2, h3, h4, h5, h6 {
         }
         .workshop {
             background-color: rgba($brand-secondary, 0.05);
+        }
+    }
+}
+
+#fh5co-workshops {
+    background: $brand-white;
+	a {
+		color: $brand-primary;
+		&:hover {
+			color: $brand-red;
+		}
+	}
+    hr{
+        border: 0;
+        height: 1px;
+        // margin-bottom: 2.3em;
+        margin-top:1.5em;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0), $brand-primary, rgba(0, 0, 0, 0));
+        width: 50vw;
+        @media (max-width: $screen-xs-max){
+            margin-top: 0;
+        }
+        @media (max-width: $screen-sm-max){
+            margin-top: 0;
+        }
+    }
+    h1 {
+        margin: 0 0 30px 0;
+        font-size: 50px;
+        font-weight: 300;
+        color: #444;
+        text-transform: uppercase;
+        position: relative;
+        display: block;
+        padding-bottom: 20px;
+        line-height: 1.5;
+        &.left-border {
+            &:after {
+                content: "";
+                position: absolute;
+                display: block;
+                width: 80px;
+                height: 2px;
+                background: $brand-primary;
+                left: 0%;
+                margin-left: 0px;
+                bottom: 0;
+            }
+        }
+        &:after {
+            content: "";
+            position: absolute;
+            display: block;
+            width: 80px;
+            height: 2px;
+            background: $brand-primary;
+            left: 50%;
+            margin-left: -40px;
+            bottom: 0;
+        }
+        @media screen and (max-width: $screen-sm) {
+            font-size: 30px;
+        }
+    }
+    h3 {
+        color: $brand-secondary;
+    }
+    .section-heading{
+        padding-bottom: 1em!important;
+        @media (max-width: $screen-xs-max){
+            padding-bottom: 0!important;
+            margin-bottom: 0;
+        }
+        @media (max-width: $screen-sm-max){
+            padding-bottom: 0!important;
+            margin-bottom: 0;
+        }
+    }
+    .fh5co-person-pic{
+        figure {
+            display: block;
+            img {
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+    }
+    .fh5co-person-bio{
+        color: $brand-secondary;
+        padding-top: 5rem;
+        @media (max-width: $screen-xs-max){
+            padding-top: 0;
+            text-align: center;
+        }
+        @media (max-width: $screen-sm-max){
+            padding-top: 0;
+            text-align: center;
+        }
+    }
+    #kinaxis{
+        .fh5co-person-pic{
+            padding: 1em 0;
+        }
+        figure{
+            margin-top: 50px;
+            @media (max-width: $screen-xs-max){
+                margin-top: 0;
+            }
+            @media (max-width: $screen-sm-max){
+                margin-top: 0;
+            }
         }
     }
 }
