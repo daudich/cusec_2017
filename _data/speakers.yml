@@ -30,6 +30,7 @@ keynote:
         bio: I am a Ruby and JavaScript developer based in San Francisco, California. I’m the Chief Consultant at DevMynd Software, where I spend most of my time pairing with my clients’ developers, helping level up their team. My particular areas of interest are OOP, service refactorings, growing teams, and inter-developer dynamics.
         pic: sarahm.png
         title: "Nodes & Edges"
+        abstract: "The connected graph -- boxes and lines, or more formally, nodes connected by edges -- is a fundamental structure of computing. Typically our first encounter with it (and often our last) is in an algorithms or data structures class. But the concepts embodied in a connected graph recur over and over again, in surprising places, and at many different scales. We talk about 'hard' skills like analyzing runtime complexity and 'soft' skills like understanding team dynamics as though they were distinct and unrelated. But the concepts of graph theory can be applied in both places, with surprisingly useful results. We'll explore how this manifests, and what it means for you, starting small with data structures, and scaling up into object design, systems, networking, teams and organizations, and on into the arc of human history. If you want to be successful at software, you need to be at least as good at the soft as you are at the hard, but fear not -- they really aren't as different as they seem."
 
     -   name: Tracy Osborn
         twitter: limedaring
@@ -78,6 +79,7 @@ breakout:
         bio: I am a PhD student at the International Laboratory for Brain, Music & Sound Research (BRAMS) and the Montreal Institute for Learning Algorithms (MILA). My research interests lay at the intersection of cognitive neuroscience and machine learning. I’m interested in how deep learning can help us understand human brain function and also how measurements of brain activity can be leveraged to design and understand neuromorphic systems. Specifically, I try to discover the computational mechanisms underlying human auditory perception using computational modeling, deep learning and ultra high-field neuroimaging.
         pic: jessica.jpg
         title: "Theoretical motivations of deep learning as it relates to artificial intelligence and the brain"
+        abstract: Deep learning is an area of machine learning that has been extremely successful in the last decade. Deep artificial neural networks, inspired by biological neural computation, now achieve state-of-the-art performance in most computer vision and computer audition tasks and generate realistic sounds and images. My research is about understanding what deep networks learn and how their intelligence relates to biological intelligence. In this talk, I will give a general overview of deep learning and discuss the computational principles that enable intelligence in deep neural networks.
 
     -   name: Kamal Marhubi
         twitter: kamalmarhubi
