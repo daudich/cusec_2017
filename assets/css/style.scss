@@ -1227,6 +1227,37 @@ h1, h2, h3, h4, h5, h6 {
             text-align: center;
         }
     }
+    .fh5co-person-talk{
+        h3{
+            color: $brand-primary;
+        }
+        hr{
+            border-top: 1px solid $brand-primary;
+            margin: 0;
+            width: 75px;
+            background: none;
+            margin-bottom: -2rem;
+            margin-left: 40%;
+            @media (max-width: $screen-xs-max){
+                margin: 1em 0;
+                margin-left: 38%;
+            }
+            @media (max-width: $screen-sm-max){
+                margin: 1em 0;
+                margin-left: 38%;
+            }
+        }
+        color: $brand-secondary;
+        padding-top: 5rem;
+        @media (max-width: $screen-xs-max){
+            padding-top: 0;
+            text-align: center;
+        }
+        @media (max-width: $screen-sm-max){
+            padding-top: 0;
+            text-align: center;
+        }
+    }
 }
 
 .fh5co-person {

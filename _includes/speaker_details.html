@@ -14,6 +14,13 @@
         </div>
     </div>
     <div class="col-md-6">
+        {% if speaker.title %}
+        <div class="fh5co-person-talk text-left to-animate">
+            <h3>{{ speaker.title | default: 'Talk title coming soon!'}}</h3>
+            <p>{{ speaker.abstract | default: 'Description coming soon!'}}</p>
+            <hr class="to-animate"/>
+        </div>
+        {% endif %}
         <div class="fh5co-person-bio text-left to-animate">
             <p>{{ speaker.bio | default: 'Description coming soon!' }}</p>
         </div>
