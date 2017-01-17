@@ -1,148 +1,124 @@
 keynote:
     -   name: Amar Shah
-        position: Web Developer &amp; Haskell Enthusiast
+        twitter: amar47shah
         bio: Amar struggles daily to be a kinder human, and often fails.
         pic: amar.jpg
-        social:
-            -   title: twitter
-                url: https://twitter.com/amar47shah
-        #     -   title: facebook
-        #         url: https://www.facebook.com/CUSEC-9884406702/
-        #     -   title: globe2
-        #         url: http://2017.cusec.net
-        #     -   title: github
-        #         url: https://github.com/cusec
+        title: "Working Compassionately with Legacy Code"
+        abstract: "Your code is your partner. It struggles against you, but also alongside you. Your code comes to you as it is, not as you wish it were. Like a real-life partner, it has a history that you’ll never fully know; like a real-life child, it bears your imprint, but it is wild, unruly, and fiercely self-sovereign. You’ll never stop working with code that’s hard to figure out or difficult to change. But this code, this stubborn creature, is entrusted to you. Let go of your anger at the developer who wrote it. Let go of the terror of being blamed for its unforeseeable regressions. Let go--and find joy."
 
     -   name: David Nolen
+        twitter: swannodette
         bio: David Nolen is a curious programmer, musician, and teacher living in Brooklyn. He currently writes Clojure, JavaScript and Ruby for Cognitect. He also helps run the affordable Kitchen Table Coders workshops from a Brooklyn studio. In his free time he contributes to several open source Clojure projects including core.match, core.logic and ClojureScript.
         pic: david.png
-        social:
-            -   title: twitter
-                url: https://twitter.com/swannodette
+        title: Between the Code and Me
 
     -   name: Liz Abinante
-        position: Senior Software Engineer @ New Relic
+        twitter: feministy
         bio: Liz Abinante lives in Portland, Oregon and works as a Senior Software Engineer at New Relic. She is infectiously enthusiastic about web development, teaching, learning, and feminism. She enjoys speaking at conferences, knitting, sewing, and a hacking away on interesting problems. Her greatest dream in life is to spend her entire day surrounded by puppies while coding.
         pic: liz.jpg
-        social:
-            -   title: twitter
-                url: https://twitter.com/feministy
+        title: "The Social Responsibility of Coding"
+        abstract: "The power of technology is in its vast reach and scale, as well as its adaptability. We build fast and break things, but what happens when we build fast and make decisions that have real-world ramifications? The impact of our work can be as small as only ourselves, or as large as the world. Understanding our social responsibility as creators is the first step to creating ethical, sustainable, and useful technology."
 
     -   name: Lynn Root
-        position: Site Reliability Engineer &amp; FOSS Evangelist @ Spotify
+        twitter: roguelynn
         bio: Based in NYC, Lynn Root is an insomniac Site Reliability Engineer &amp; the FOSS evangelist for Spotify. She is also a global leader of PyLadies, an international mentorship group for women and friends in the Python community, and the founder &amp; former leader of the San Francisco PyLadies. When her hands are not on a keyboard, they are usually holding a pair of knitting needles.
         pic: lynn.jpeg
-        social:
-            -   title: twitter
-                url: https://twitter.com/roguelynn
+        title: "How to spy with Python"
+        abstract: "In the past few years, individuals have come forward revealing that large governments have been spying on pretty much anyone and everyone. But what is actually going on? How does it affect you, and what can you do to protect yourself? And most importantly, how can *you* replicate what these governments are doing?! Obligatory disclaimer: I am not condoning spying on others!"
 
     -   name: Sarah Mei
-        position: Chief Consultant @ DevMynd Software
+        twitter: sarahmei
         bio: I am a Ruby and JavaScript developer based in San Francisco, California. I’m the Chief Consultant at DevMynd Software, where I spend most of my time pairing with my clients’ developers, helping level up their team. My particular areas of interest are OOP, service refactorings, growing teams, and inter-developer dynamics.
         pic: sarahm.png
-        social:
-            -   title: twitter
-                url: https://twitter.com/sarahmei
+        title: "Nodes & Edges"
+        abstract: "The connected graph -- boxes and lines, or more formally, nodes connected by edges -- is a fundamental structure of computing. Typically our first encounter with it (and often our last) is in an algorithms or data structures class. But the concepts embodied in a connected graph recur over and over again, in surprising places, and at many different scales. We talk about 'hard' skills like analyzing runtime complexity and 'soft' skills like understanding team dynamics as though they were distinct and unrelated. But the concepts of graph theory can be applied in both places, with surprisingly useful results. We'll explore how this manifests, and what it means for you, starting small with data structures, and scaling up into object design, systems, networking, teams and organizations, and on into the arc of human history. If you want to be successful at software, you need to be at least as good at the soft as you are at the hard, but fear not -- they really aren't as different as they seem."
 
     -   name: Tracy Osborn
-        position: Designer, Developer, &amp; Entreprenerd
+        twitter: limedaring
         bio: "Tracy Osborn is a designer, developer, and entreprenerd living in Toronto, Canada. She's the author of <a href='http://hellowebapp.com/'>Hello Web App</a> and the upcoming <a href='http://weddinglovely.com/'>Hello Web Design</a>, as well as the creator of WeddingLovely. She's also an avid outdoorswoman and would love to go on a hike with you."
         pic: tracy.png
-        social:
-            -   title: twitter
-                url: https://twitter.com/limedaring
+        title: "The New Beginner"
+        abstract: "As programming has become more accessible, our community has been expanding. We have designers who are learning Python to build better typography programs, entrepreneurs who are learning programming to build their products, folks just now learning programming in general to folks who have programmed extensively in other languages. Tracy Osborn will speak about her experience joining the Python community (and the long journey that brought her here) and why our increased diversity and paths of experience have improved our community as a whole."
 
 breakout:
     -   name: Berkley Staite
-        position: Volunteer Director @ Techsdale
+        twitter: berv_
         bio: "Whether teaching, playing, or creating, Berkley is driven by the desire to find compelling entry points into the world of games for people of all backgrounds and levels of experience. He believes in the unique potential of interactivity to connect, to persuade, and to inspire, and is committed to sharing and cultivating these possibilities. <br><br> Berkley brings with him instructional experience in a broad variety of topics: game design, acroyoga, sexual health, and drama, through which he has worked with a wide range of youth and adults. Additionally, his design credits include work for Alientrap Games, Jennifer Ann’s Group, and the Western Development Museum, working in a combination of digital and real-world spaces."
         pic: berkley.png
-        social:
-            -   title: twitter
-                url: https://twitter.com/berv_
+        title: "Tech for Social Good"
+        abstract: "Can we leverage our tech skills and knowledge beyond their immediate applications? How do we take things one step further and reach out? It's on us to open the world of tech up beyond our Slack channels and TXDL wants to share some ideas in action."
 
     -   name: Emil Stolarsky
-        position: Production Engineer @ Shopify
+        twitter: emilstolarsky
         bio: Emil is a production engineer at Shopify where he works on performance, flash sales, and DNS tooling. When he's not trying to make Shopify's global performance heat map green, he's shivering over a spiked cup of coffee in the great Canadian north.
         pic: emil.png
-        social:
-            -   title: twitter
-                url: https://twitter.com/emilstolarsky
+        title: "Kylie, Kanye, and the Super Bowl: Going big without going down"
+        abstract: "From stores with ads in the Super Bowl to selling Kanye’s latest album, Shopify has built a name for itself handling some of the world’s largest flash sales. These high profile events generate write-heavy traffic that can be six times our platform’s baseline throughput. Needless to say, that kind of traffic doesn’t lend itself well to off-the-shelf solutions.<br><br>This talk is the story of how we engineered our platform to withstand large bursts of traffic. Since it’s not financially sound for Shopify to always run the required capacity, we used Lua to build queueing and caching layers into our Nginx load balancers. To guarantee these solutions worked, we tested them with a purpose-built load testing service.<br><br>Although flash sales are unique to commerce platforms, the lessons we learn from them are applicable to any services that experience bursts of traffic."
 
     -   name: Florencia Herra-Vega
-        position: CTO @ Peerio
+        twitter: flohdot
         bio: Florencia Herra Vega is an excitable generalist who loves trying to break down and explain complex technical problems. As the CTO of Peerio, she wrangles distributed systems, distributed teams, and trying to make end-to-end encryption usable to humans.<br><br>In addition to her career as a developer, she has also spent the past decade running popular education programs on topics ranging from sexual health to introductions to coding. She likes to take a harm reduction approach to digital security.<br><br>Florencia was born in Costa Rica and lives in Montreal. When not in front of a computer, she enjoys cooking intricate meals, the writing of Octavia Butler and Ursula K. LeGuin, and lifting weights.
         pic: florencia.jpg
-        social:
-            -   title: twitter
-                url: https://twitter.com/flohdot
+        title: "A Beginner's Toolkit for Securing Web Apps"
 
     -   name: Huma Zafar
-        bio: Huma prefers not to keep her hands still, whether that involves working on one of her many knitting projects, learning a new weaving technique on her loom, typing away at her keyboard as she plays with some new programming language, or gesturing endlessly as she talks. She reads a lot.
+        twitter: electricspectra
+        bio: Tech Analyst at BiblioCommons, Huma prefers not to keep her hands still, whether that involves working on one of her many knitting and weaving projects, typing away at her keyboard as she plays with some new programming language, or gesturing wildly as she talks. She reads a lot.
         pic: huma.jpg
-        social:
-            -   title: twitter
-                url: https://twitter.com/electricspectra
+        title: "Macros and Metaprogramming"
+        abstract: "Ever wondered how macros really work? Or perhaps you've crafted many a crazy #define and want to take your macro knowledge to the next level? In this talk, we'll start with the basics and work up to the mechanics of different types of macros, look at the intersection of macros and functional languages, and finally, show some powerful ways we can use macros to extend an existing language."
 
     -   name: Jamie Wong
-        position:
+        twitter: jlfwong
         bio: Jamie Wong works at Figma helping to build the next generation of interface design tools. Before that, he worked on site speed infrastructure and internationalization tools at Khan Academy. Before *that*, he was working on getting the coveted engineering iron ring from uWaterloo until 2014. He can be seen mostly fiddling with said iron ring, and probably dropping it. Honestly, it's a miracle it isn't in a storm drain somewhere.
         pic: jamie.jpg
-        social:
-            -   title: twitter
-                url: https://twitter.com/jlfwong
+        title: "From Characters to Pixels: Math in Typography"
+        abstract: "With nothing more than a font file, basic algebra, and a function to set the color of a pixel, you'll learn the mathematics behind how the letter e makes its way to your screen."
 
     -   name: Jessica Thompson
+        twitter: tsonj
         bio: I am a PhD student at the International Laboratory for Brain, Music & Sound Research (BRAMS) and the Montreal Institute for Learning Algorithms (MILA). My research interests lay at the intersection of cognitive neuroscience and machine learning. I’m interested in how deep learning can help us understand human brain function and also how measurements of brain activity can be leveraged to design and understand neuromorphic systems. Specifically, I try to discover the computational mechanisms underlying human auditory perception using computational modeling, deep learning and ultra high-field neuroimaging.
         pic: jessica.jpg
-        social:
-            -   title: twitter
-                url: https://twitter.com/tsonj
+        title: "Theoretical motivations of deep learning as it relates to artificial intelligence and the brain"
+        abstract: Deep learning is an area of machine learning that has been extremely successful in the last decade. Deep artificial neural networks, inspired by biological neural computation, now achieve state-of-the-art performance in most computer vision and computer audition tasks and generate realistic sounds and images. My research is about understanding what deep networks learn and how their intelligence relates to biological intelligence. In this talk, I will give a general overview of deep learning and discuss the computational principles that enable intelligence in deep neural networks.
 
     -   name: Kamal Marhubi
-        position: Developer @ Heap
+        twitter: kamalmarhubi
         bio: Kamal is a developer who's worked with Morgan Stanley, Google, and currently Heap. Ten years ago, he refused to write code in anything other than Haskell. He's since come to appreciate many other languages, and these days really enjoys low-level programming in Rust. He has greater-than-average experience in running his kernel out of memory, temporary retirement, and ringing church bells.
         pic: kamal-square.jpg
-        social:
-            -   title: twitter
-                url: https://twitter.com/kamalmarhubi
+        title: "What I learned programming in Rust"
 
     -   name: Lei Lopez
-        position: Production Engineer @ Shopify
+        twitter: emojineeer
         bio: Lei graduated from McGill University in Computer Science after an ill-fated start in biology. Now she works on making developers happier as part of the Production Engineering team at Shopify. Her favourite emojis are the potato and cartwheeler from Unicode 9.0.
         pic: lei.jpg
-        social:
-            -   title: twitter
-                url: https://twitter.com/emojineeer
+        title: "Planetary Scale Web Architecture"
+        abstract: "What does it look like to run a web application that serves billions of requests each day, from all over the world? Let's step into the mindset of a Production Engineer to see what it takes to make a trivial website into a production-ready system."
 
     -   name: Peter Sobot
-        position: Software Engineer @ PagerDuty
+        twitter: psobot
         bio: "Peter Sobot is a software engineer from Toronto who loves building reliable software that delights people. He currently works at PagerDuty, the company that wakes up other engineers when their software breaks, but recently graduated with a degree in Software Engineering from the University of Waterloo in 2014. He enjoys making music and trolling people by using Comic Sans. Read his ramblings on his website: https://petersobot.com"
         pic: peter.jpg
-        social:
-            -   title: twitter
-                url: https://twitter.com/psobot
+        title: "Words are Hard"
+        abstract: "Software engineering is much more about talking with humans than writing code. But what happens when all of that communication takes place online?<br><br>In this talk, I'll talk about common scenarios that can be tricky to navigate in the digital world. We'll cover ways to get the most out of modern communication tools (Slack, GitHub, email, IM, etc.) and how to avoid being misunderstood when using these tools professionally.<br><br>Words can be hard, but they don't have to be."
 
     -   name: Riley J. Shaw
+        twitter: rileyjshaw
         bio: Riley wrote this about himself. He works at Khan Academy, where he's proudly removed more lines of code than he's added. He hopes you're happy and fulfilled at school, or wherever you may be.
         pic: riley.png
-        social:
-            -   title: twitter
-                url: https://twitter.com/rileyjshaw
+        title: "Code is bad"
+        abstract: "As developers, we get a kick out of building things from scratch. Once we start working with larger teams, though, it's important to understand the organizational cost of (re)building code from the ground up. This session aims to convince you that code sucks and the noblest aspiration is to write less."
 
     -   name: Sarah Anne Friend
+        twitter: isthisanart_
         bio: Sa Friend is a blockchain developer working on analytics and open source infrastructure. Before that she played with CNC machines at Guild Eyewear. She's the founder of Small Talk, an interdisciplinary lecture series, and a proud Recurse Center alumna.
         pic: sarahf.jpg
-        social:
-            -   title: twitter
-                url: https://twitter.com/isthisanart_
+        title: "Blockchains: How do they work?"
+        abstract: "This talk will offer a high level overview of how blockchains work as a datastructure - focusing specifically on the bitcoin blockchain.  It will detail what a transaction is, how private/public keys are used in blockchain transactions, what mining is, and how proof of work is used to secure the network.  It will not, in any way, constitute investment advice."
 
     -   name: Prof. Sharief Oteafy
-        position: Research Fellow &amp; Adjunct Assistant Professor @ Queen's University
+        twitter: SOteafy
         bio: "A Computer scientist trying to re-vamp our view of this discipline, and guide young learners to their unique paths in Computing! To know more, here’s my website: <a href='http://cs.queensu.ca/~oteafy/'>cs.queensu.ca/~oteafy</a> :)"
         pic: oteafy.jpg
-        social:
-            -   title: twitter
-                url: https://twitter.com/SOteafy
-            -   title: globe2
-                url: http://cs.queensu.ca/~oteafy/
+        title: "Etching your CS path: lessons from academia"
+        abstract: "As a veteran of academia, and one of the final generation of pure-CS dinosaurs, I’ve seen quite a number of CS majors carve their way through diverse career paths. In a time of such potential, it is alarming to see many surrender to “conforming views” of what a CS major “must do”. We’ll talk about grad school, why and how you should approach it, and pursuing your unique impact in Computing. More importantly, we’ll talk about the road to finding your unique path among previous CS generations, and how to bridge and connect with those who often roll their eyes as they dub you… the Millennials (or Generation Z)!"

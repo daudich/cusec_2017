@@ -3,7 +3,7 @@
         <div class="fh5co-person-pic text-center to-animate" id="{{ speaker.twitter }}">
             <figure><img src="{{ "/assets/images/" | prepend: site.url }}{{ speaker.pic | default: 'placeholder.png' }}" alt="Image" class="img-circle img-responsive"></figure>
             <h3><strong>{{ speaker.name }}</strong></h3>
-            <a href="https://twitter.com/{{ speaker.twitter }}"><span class="fh5co-twitter"><em>@{{ speaker.twitter }}</em></span></a>
+            <span class="fh5co-position"><em>{{ speaker.position }}</em></span>
             {% if speaker.social %}
             <ul class="social social-circle">
                 {% for media in speaker.social %}
@@ -14,13 +14,6 @@
         </div>
     </div>
     <div class="col-md-6">
-        {% if speaker.title %}
-        <div class="fh5co-person-talk text-left to-animate">
-            <h3>{{ speaker.title | default: 'Talk title coming soon!'}}</h3>
-            <p>{{ speaker.abstract | default: 'Description coming soon!'}}</p>
-            <hr class="to-animate"/>
-        </div>
-        {% endif %}
         <div class="fh5co-person-bio text-left to-animate">
             <p>{{ speaker.bio | default: 'Description coming soon!' }}</p>
         </div>

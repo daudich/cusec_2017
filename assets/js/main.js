@@ -215,6 +215,64 @@
 		}
 	};
 
+    var scheduleAnimate = function() {
+		var schedule = $('#fh5co-schedule');
+		if ( schedule.length > 0 ) {
+			schedule.waypoint( function( direction ) {
+				if( direction === 'down' && !$(this.element).hasClass('animated') ) {
+					var sec = schedule.find('.to-animate').length,
+						sec = parseInt((sec * 200) - 400);
+					setTimeout(function() {
+						schedule.find('.to-animate').each(function( k ) {
+							var el = $(this);
+							setTimeout ( function () {
+								el.addClass('fadeInUp animated');
+							},  k * 200, 'easeInOutExpo' );
+						});
+					}, 200);
+					setTimeout(function() {
+						schedule.find('.to-animate-2').each(function( k ) {
+							var el = $(this);
+							setTimeout ( function () {
+								el.addClass('fadeInDown animated');
+							},  k * 200, 'easeInOutExpo' );
+						});
+					}, sec);
+					$(this.element).addClass('animated');
+				}
+			} , { offset: '80%' } );
+		}
+	};
+
+    var workshopsAnimate = function() {
+        var workshops = $('#fh5co-workshops');
+        if ( workshops.length > 0 ) {
+            workshops.waypoint( function( direction ) {
+                if( direction === 'down' && !$(this.element).hasClass('animated') ) {
+                    var sec = workshops.find('.to-animate').length,
+                        sec = parseInt((sec * 200) - 400);
+                    setTimeout(function() {
+                        workshops.find('.to-animate').each(function( k ) {
+                            var el = $(this);
+                            setTimeout ( function () {
+                                el.addClass('fadeInUp animated');
+                            },  k * 200, 'easeInOutExpo' );
+                        });
+                    }, 200);
+                    setTimeout(function() {
+                        workshops.find('.to-animate-2').each(function( k ) {
+                            var el = $(this);
+                            setTimeout ( function () {
+                                el.addClass('fadeInDown animated');
+                            },  k * 200, 'easeInOutExpo' );
+                        });
+                    }, sec);
+                    $(this.element).addClass('animated');
+                }
+            } , { offset: '80%' } );
+        }
+    };
+
 	var schoolsAnimate = function() {
 		var schools = $('#fh5co-schools');
 		if ( schools.length > 0 ) {
@@ -402,6 +460,8 @@
         codeConductAnimate();
         schoolsAnimate();
         sponsorsAnimate();
+        scheduleAnimate();
+        workshopsAnimate();
         speakersAnimate();
 		workAnimate();
 		countersAnimate();
